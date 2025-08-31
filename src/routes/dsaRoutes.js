@@ -35,13 +35,13 @@ router.get(
 router.post(
   "/assign-subject",
   requireAuth,
-  requireRole("admin"),
+  // requireRole("admin"),
   assignSubjectToUser
 );
 router.post(
   "/remove-subject",
   requireAuth,
-  requireRole("admin"),
+  // requireRole("admin"),
   removeSubjectFromUser
 );
 

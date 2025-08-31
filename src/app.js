@@ -15,7 +15,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://courses-sheet-fe2.vercel.app"], // allow your React app
+    origin: ["http://localhost:3000", "https://courses-sheet-fe.vercel.app"], // allow your React app
     credentials: true, // if you ever send cookies
   })
 );
